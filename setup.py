@@ -1,3 +1,4 @@
+import os
 from setuptools import setup, find_packages
 
 from vcloudtools import __version__
@@ -15,6 +16,12 @@ python_scripts = [
     'org',
 ]
 
+HERE = os.path.dirname(__file__)
+try:
+    long_description = open(os.path.join(HERE, 'README.rst')).read()
+except:
+    long_description = None
+
 setup(
     name='vcloudtools',
     version=__version__,
@@ -25,8 +32,9 @@ setup(
     author_email='nick@whiteink.com',
     maintainer='Government Digital Service',
     url='https://github.com/alphagov/vcloudtools',
-
     description='vCloud: tools for interacting with the vCloud API',
+    long_description=long_description,
+
     license='MIT',
     keywords='sysadmin vcloud vmware virtualisation api',
 

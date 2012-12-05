@@ -19,8 +19,8 @@ Installation
 Usage
 -----
 
-Simple usage. First, tell ``vcloudtools`` where your vCloud Director API is by
-adding an environment variable to your ``.bash_profile`` or similar::
+First, tell ``vcloudtools`` where your vCloud Director API is by adding an
+environment variable to your ``.bash_profile`` or similar::
 
     $ echo "export VCLOUD_API_ROOT=https://vcd.example.com/api" >> ~/.bash_profile
     $ exec $SHELL

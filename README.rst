@@ -43,6 +43,14 @@ You can also manually browse the API with ``vcloud-browse``::
     $ vcloud-browse /session
     $ vcloud-browse /org/7318a9a7-cc79-4f88-b8f8-ddddec6873f8
 
+Hacking
+-------
+
+Please make sure you run the tests with::
+
+    $ pip install tox
+    $ tox
+
 License
 -------
 

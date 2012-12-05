@@ -1,0 +1,9 @@
+language: python
+python:
+  - 2.7
+  - pypy
+env: 
+  - VCLOUD_API_ROOT=http://test-api-root
+install:
+  - pip install . --use-mirrors
+script: nosetests

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session xmlns="http://www.vmware.com/vcloud/v1.5" user="test_user" org="Test-Org" type="application/vnd.vmware.vcloud.session+xml" href="http://test-api-root/session/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vmware.com/vcloud/v1.5 http://test-api-root/v1.5/schema/master.xsd">
+    <Link rel="down" type="application/vnd.vmware.vcloud.orgList+xml" href="http://test-api-root/myCustomOrgListPath/"/>
+    <Link rel="down" type="application/vnd.vmware.admin.vcloud+xml" href="http://test-api-root/admin/"/>
+    <Link rel="down" type="application/vnd.vmware.vcloud.org+xml" name="Test-Org" href="http://test-api-root/org/eb0537cb-a160-47da-97dc-fd83cb275f4a"/>
+    <Link rel="down" type="application/vnd.vmware.vcloud.query.queryList+xml" href="http://test-api-root/query"/>
+    <Link rel="entityResolver" type="application/vnd.vmware.vcloud.entity+xml" href="http://test-api-root/entity/"/>
+</Session>

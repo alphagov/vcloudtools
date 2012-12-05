@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OrgList xmlns="http://www.vmware.com/vcloud/v1.5" type="application/vnd.vmware.vcloud.orgList+xml" href="https://test-api-root/org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vmware.com/vcloud/v1.5 https://test-api-root/v1.5/schema/master.xsd">
+    <Org type="application/vnd.vmware.vcloud.org+xml" name="Org-Foo" href="https://test-api-root/org/734772e4-166f-4dcc-9391-d35ddafce90e"/>
+    <Org type="application/vnd.vmware.vcloud.org+xml" name="Org-Bar" href="https://test-api-root/org/d5a44e58-135b-4a27-903e-a4c41112e165"/>
+    <Org type="application/vnd.vmware.vcloud.org+xml" name="Org-Baz" href="https://test-api-root/org/eb0537cb-a160-47da-97dc-fd83cb275f4a"/>
+</OrgList>

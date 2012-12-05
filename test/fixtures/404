@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error xmlns="http://www.vmware.com/vcloud/v1.5" minorErrorCode="RESOURCE_NOT_FOUND" message="Resource not found" majorErrorCode="404" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.vmware.com/vcloud/v1.5 http://test-api-root/v1.5/schema/master.xsd"></Error>

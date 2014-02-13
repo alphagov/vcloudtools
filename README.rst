@@ -1,3 +1,10 @@
+Warning - unmaintained since 5th December, 2012
+==========================
+
+The code in this repo hasn't been changed since 5th December, 2012 - it probably still works, but the focus of our
+work on VMWare vCloud has moved into the `Fog library <http://fog.io/>`_ via our new `vcloud-tools <https://github.com/alphagov/vcloud-tools>`_
+repo. This code is `MIT Licensed <LICENSE>`_, so feel free to fork and amend it for your needs.
+
 vcloudtools
 ===========
 
